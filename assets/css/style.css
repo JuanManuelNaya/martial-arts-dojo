@@ -1,3 +1,12 @@
-body{
-    font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Mukta:wght@300&display=swap'); /* import link from google fonts*/
+
+*{ /* wild card setting marging padding and border to 0*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{ /* setting body font*/
+    font-family: Mukta, sans-serif;
+    font-weight: 300;
 }
