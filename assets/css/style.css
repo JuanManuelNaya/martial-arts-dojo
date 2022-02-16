@@ -9,7 +9,7 @@
 body{ /* setting body font*/
     font-family: Mukta, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: grey;
 }
 
 /* Headings and logo */
@@ -34,8 +34,21 @@ h1, h2{
     float: right;
 }
 
+#menu, #logo{ /* to align these two elements*/
+    line-height: 75px;
+}
+
 #menu li{
     list-style-type: none;
     margin-right: 40px;
     float: left;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid black;
 }
