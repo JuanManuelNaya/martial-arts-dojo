@@ -273,6 +273,15 @@ hr{
     border-color: #e8f16b;
 }
 
+/* Google map style*/
+
+.form-section > #map{
+    float: right;
+    margin-top: 35%;
+    margin-right: 3%;
+}
+
+
 /* Footer section*/
 
 footer{
