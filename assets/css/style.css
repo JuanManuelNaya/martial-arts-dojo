@@ -118,7 +118,7 @@ h1, h2{
 /* about-us */
 
 #about-us{
-    height: 600px;
+    height: 500px;
 }
 
 #left-about{
@@ -230,4 +230,45 @@ hr{
     text-align: center;
     margin: 20px 0;
     font-size: 160%;
+}
+
+/* form-section and signup-form styling */
+
+.form-section {
+    clear: left;
+    background: url("../images/signup.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+.signup-form{
+    margin: 150px 10% 0 0;
+    color: #3a3a3a;
+    background-color:rgb(218, 218, 218);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.join-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e8f16b;
+    color: #3a3a3a;;
+    display:block;
+}
+
+.join-button:hover{
+    background-color: #3a3a3a;
+    color:#e8f16b;
+}
+
+.text-input:hover{
+    border-color: #e8f16b;
 }
