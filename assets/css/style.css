@@ -272,3 +272,31 @@ hr{
 .text-input:hover{
     border-color: #e8f16b;
 }
+
+/* Footer section*/
+
+footer{
+    height:150px;
+}
+
+.social-media{
+    text-align: center;
+    height: 150px;
+    
+}
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
+}
+
+#contact-info > div{
+    text-align: center;
+}
+
