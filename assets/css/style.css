@@ -3,7 +3,7 @@
 *{ /* wild card setting marging padding and border to 0*/
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
 body{ /* setting body font*/
@@ -118,7 +118,7 @@ h1, h2{
 /* about-us */
 
 #about-us{
-    height: 500px;
+    height: 600px;
 }
 
 #left-about{
@@ -136,7 +136,7 @@ h1, h2{
 
 #center-about{
     width: 33%;
-    margin: 0 auto;
+    margin: 0 auto; /* Center this div */
 }
 
 hr{
@@ -148,18 +148,19 @@ hr{
 .left-about-us{
     width: 60%;
     line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
+    clear: both; /*we ensure that each content block is aligned vertically */
+    margin-bottom: 50px; /*we create some breathing space between the divs*/
     float: right;
 
 }
 
 .right-about-us{
     width: 60%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
     float: left;
+    line-height: 20px;
+    clear: both; /*we ensure that each content block is aligned vertically */
+    margin-bottom: 50px; /*we create some breathing space between the divs*/
+    
 }
 
 
@@ -173,7 +174,7 @@ hr{
 
 #why-title{
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0; /*We push the heading 20px down from the hero image */
     font-size: 220%;
 
 }
@@ -356,5 +357,39 @@ footer{
         line-height: 25px; /* to have some space balance between logo title and image obove  */
     }
 
+    #cover-text{
+        left: 0;
+    }
+
+    #about-us{
+        width: 90%; /* mobile divices width - this is going to make a 5% spacing on the left and right margins of the screen*/
+        height: 1200px;
+        margin: 0 auto;
+
+    } 
+
+    
+    .left-about-us , .right-about-us{
+        width: 100%;
+        display: inline;
+        /*display: inline-flexbox;*/
+    } 
+
+    .left-about-us h2, .right-about-us h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-us p, .right-about-us p{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+   /* #map{
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 500px
+    } */
 
 }
