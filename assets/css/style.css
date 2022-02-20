@@ -191,9 +191,9 @@ hr{
 }
 
 #circle-cover-bg{
-    background: url(../images/hi.JPG) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+    background: url(../images/hi.JPG) no-repeat center center; /* we horizontally and vertically center the image and prevent repeats*/
+    height: 100%; /*We need to give the div a height or the image won't show up */
+    border-radius: 50%; /*To make the image round */
 }
 
 /* Schedule jujitsu classes*/
@@ -208,7 +208,7 @@ hr{
     background-color:rgba(238, 237, 27, .7);
     width: 100%;
     height: 70px;
-    display: inline-table;
+    /*display: inline-table;*/
     padding: 30px 0 0 10px;
     text-align: center;
     
@@ -221,7 +221,7 @@ hr{
     background-color:rgba(238, 237, 27, .7);
     width: 100%;
     height: 70px;
-    display: inline-flexbox;
+    /*display: inline-flexbox;*/
     text-align: center;
     
 }
@@ -275,10 +275,10 @@ hr{
 
 /* Google map style*/
 
-.form-section > #map{
-    float: right;
-    margin-top: 35%;
-    margin-right: 3%;
+#map {
+    height: 300px;
+    margin-top: 3%;
+    margin-left:  500px;
 }
 
 
@@ -309,3 +309,40 @@ footer{
     text-align: center;
 }
 
+/* Media queries */
+
+/*For Larger to Medium  screen size - tablet - 1200px wide and down*/
+
+@media screen and (max-width: 1200px){
+    #about-us{
+        width: 65%; /* narrow dising tablet */
+        height: 1200px; /* accomodate vertical layout*/
+        margin: 0 auto; /* to center content */
+    }
+
+    #why-title{
+        padding: 30px 0; /* to keep balance between the title and the image above*/
+        margin: 0; /* clean vertical gap*/ 
+       }
+
+
+    #left-about-us , #right-about-us{
+        width: 100%; /* 100% width of the parent section about-us*/
+        float: left;
+        padding: 0; /* override default desktop-level padding */
+    }
+
+    #center-about{
+        clear: both; /* to push image below text content*/
+        width: 100%; /* 100% of the parent about-us width*/
+        float: left;
+        padding: 0; /* override default desktop-level padding */
+    }
+
+    hr{
+        display: none;
+    }
+
+    
+
+}
