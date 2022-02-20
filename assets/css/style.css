@@ -342,7 +342,19 @@ footer{
     hr{
         display: none;
     }
+}
 
-    
+/* for medium screen sieze - phones - 950px wide and down*/
+
+@media screen and (max-width: 950px){
+   
+    #menu{ /* push it below and left of logo*/
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; /* to have some space balance between logo title and image obove  */
+    }
+
 
 }
