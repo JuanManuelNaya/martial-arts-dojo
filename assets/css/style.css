@@ -73,7 +73,6 @@ h1, h2{
     height: 600px;
     width: 100%;
     background: url("../images/dojo1.jpg") no-repeat center center; /* no repeat if it is smaller than the window and set horizontally and vertically*/
-
     /*animation effect on loeading page */
     animation-name: zoom;
     animation-duration: 7s;

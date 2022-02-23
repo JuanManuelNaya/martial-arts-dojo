@@ -57,8 +57,8 @@ Contact us: Sharing contact details such as address, email , phone number.
 
 ![Experiences](/assets/images/Expiriences.JPG)
 
--This Area shows some people sharing their personal experiences learning at Warrior Dojo
--The background and letter color matches the on of the header to.
+-This Area shows some people sharing their personal experiences learning at Warrior Dojo.
+-The background and letter color matches the website.
 
 **SignUp Section**
 
@@ -68,7 +68,7 @@ Contact us: Sharing contact details such as address, email , phone number.
 -This area collects the following info: name, last name, email address.
 -The color of the bottom is clear yellow and the font is in black, when hover the color gets inverted.
 -This area has a background image of a man dressed in jujitsu kimono doing a pose, the image is mainly black.
--This area has a rectangle that says Sign up today
+-This area has a rectangle that says Sign up today.
 
 
 **Contact Us section**
@@ -86,7 +86,7 @@ Contact us: Sharing contact details such as address, email , phone number.
 - I tested this website and confirm that it works on different browsers such as: Chrome, Firefox, Microsoft Edge.
 - I confirm that tis project is responsive, looks good and functions on all standard screen sizes using the devtool device toolbar.
 -I confirm that all sections of these website are easy to read and understand.
--I confirm that the form works and display a message when  pressing the submit bottom and entering all requested information wich is name, last name and email. (I need to clarify that I do not own a domain so the form when submited it will open a new tab with the thank you message).
+-I confirm that the form works and display a message when  pressing the submit bottom and entering all requested information wich is name, last name and email. (I need to clarify that I do not own a domain, so I created a GET form, when the user puts all the information and submit it will open a new tab with a thank you message).
 
 #Validator Testing
 
