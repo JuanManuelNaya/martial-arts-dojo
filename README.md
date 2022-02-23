@@ -14,7 +14,7 @@ Contact us: Sharing contact details such as address, email , phone number.
 
 ![Display](/assets/images/Display.JPG)
 
-#Features
+## Features
 
 **Navegation**
 
@@ -81,37 +81,71 @@ Contact us: Sharing contact details such as address, email , phone number.
 -Bellow we have the following information, (all center with icons): location , phone number, email address.
 
 
-#Testing
+## Testing
 
 - I tested this website and confirm that it works on different browsers such as: Chrome, Firefox, Microsoft Edge.
 - I confirm that tis project is responsive, looks good and functions on all standard screen sizes using the devtool device toolbar.
 -I confirm that all sections of these website are easy to read and understand.
 -I confirm that the form works and display a message when  pressing the submit bottom and entering all requested information wich is name, last name and email. (I need to clarify that I do not own a domain, so I created a GET form, when the user puts all the information and submit it will open a new tab with a thank you message).
 
-#Validator Testing
+## Bugs
+
+**Solved bugs**
+-When validating my CSS code in W3C CSS validator I found an error.
+-I discover that in the attribute named letter-spacing I made a space and put 4 px insted of 4px.
+-I applied the change and solve the issue.
+
+Code example:
+
+`#menu{
+    font-size: 120%;
+    letter-spacing: 4px;
+    float: right;
+}`
 
 
+## Validator Testing
+
+-HTML
+	-No errors were found when passing through the official W3C HTML validator.
+
+-CSS
+	-No erros were found when passing through the official  W3C CSS validator.
+
+-Accessibility
+	-I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
 
 
+![Accessibility](/assets/images/Accessibility.JPG)
 
-#Deployment
+## Unfixed Bugs
+
+-No unfixed bugs
+
+## Deployment
 
 -The website is hosted by GitHub.
 -The steps taken to display the website where the following:
-In the gitHub repositoy, navigate to the settings tab.
-From the setting tab scroll down to the gitHub pages area and click.
-Next we need to select the main branch and press save.
-This will generate a link to the website.
+	In the gitHub repositoy, navigate to the settings tab.
+	From the setting tab scroll down to the gitHub pages area and click.
+	Next we need to select the main branch and press save.
+	This will generate a link to the website.
 
+**Deployed link to the site:** [Warrior Dojo](https://juanmanuelnaya.github.io/martial-arts-dojo/)
 
-#Credits
+**Live link to the proyect from gitHub:** [Warrior Dojo](https://github.com/JuanManuelNaya/martial-arts-dojo)
 
-**Deployed link to the site from GitHub:** https://juanmanuelnaya.github.io/martial-arts-dojo/
+## Credits
 
-**This website is inspired  on a website created by:** https://learn.codeinstitute.net/  Love Running proyect 
-**Font source:** https://fontawesome.com/search?q=sort&m=free
-**Image sources:**  www.pexels.com
-					https://unsplash.com/
-**Information aboute martial arts source:** https://www.level3karate.com/top-10-reasons-to-learn-martial-arts
-**Google map code source:** https://www.mapsdirections.info/en/custom-google-maps/
+This website is inspired  by [Love Running proyect.](https://learn.codeinstitute.net/)  
+
+The Code to make social media links was taken from [Love Running proyect.](https://learn.codeinstitute.net/)  
+
+Font source: [Font Awasome](https://fontawesome.com/search?q=sort&m=free)
+
+Image sources:  [Pexels](www.pexels.com)
+					[Unsplash](https://unsplash.com/)
+					
+Information aboute martial arts source:  [Level3karate](https://www.level3karate.com/top-10-reasons-to-learn-martial-arts)
+
 
