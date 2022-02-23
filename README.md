@@ -7,8 +7,9 @@ People must be at least 8 years old.
 
 Benefits: Explaining the different bennefits of learning jujitsu.
 schedule: Showing the different times of the day the club is open.
+Experiences: Peopele sharing they experience at Warrior Dojo.
 Contact us: Sharing contact details such as address, email , phone number.
-Google map: Showing the nerest location to the club.
+
 
 
 ![Display](/assets/images/Display.JPG)
@@ -69,12 +70,6 @@ Google map: Showing the nerest location to the club.
 -This area has a background image of a man dressed in jujitsu kimono doing a pose, the image is mainly black.
 -This area has a rectangle that says Sign up today
 
-**Google Map Section**
-
-![GoogleMap](/assets/images/googleMap.JPG)
-
--This section shows the user a google map showing the nearest location to the gym that is the people's park.
--Notice that I didn't select the Warrior dojo location because its not real (we can imagine that the club is new and it doesn't have a proper google map location).
 
 **Contact Us section**
 
