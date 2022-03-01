@@ -31,15 +31,18 @@ footer{
     grid-column-start: span 3;
 }
 
-*{ /* wild card setting marging padding and border to 0*/
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
-body{ /* setting body font*/
-    font-family: Mukta, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
+/* media query  mobile*/
+@media (max-width:768px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto auto 100px ;
 
+    }
+
+    header,aside,main,footer{
+        grid-column-start: span 1;
+
+    }
+
+}
