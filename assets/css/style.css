@@ -31,6 +31,42 @@ footer{
     grid-column-start: span 3;
 }
 
+.form-section {
+    clear: left;
+    background: url("../images/signup.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.signup-form{
+    margin: 150px 10% 0 0;
+    color: #3a3a3a;
+    background-color:rgb(218, 218, 218);
+    max-width: 400px;
+    position: 0 auto;
+    left: 10%;
+    padding: 30px;
+}
+
+.social-media{
+    text-align: center;
+    height: 150px;
+    
+}
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
+}
+
+
 
 /* media query  mobile*/
 @media (max-width:768px){
