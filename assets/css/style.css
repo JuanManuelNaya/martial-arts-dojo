@@ -5,9 +5,31 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px auto 100px;
     height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    
+
 }
 
+header{
+    background-color: gold;
+    grid-column-start: span 3;
+}
 
+aside{
+    background-color: gray;
+    grid-column-start: span 1;
+}
+
+main{
+    background-color: tomato;
+    grid-column-start: span 2;
+}
+
+footer{
+    background-color: blueviolet;
+    grid-column-start: span 3;
+}
 
 *{ /* wild card setting marging padding and border to 0*/
     margin: 0;
