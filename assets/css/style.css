@@ -166,6 +166,10 @@ footer{  /* using grid + flex box*/
     color: black;
 }
 
+.info{
+    text-align: center;
+    
+}
 
 
 /* media querys*/
