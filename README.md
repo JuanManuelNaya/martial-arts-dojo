@@ -137,7 +137,7 @@ Code example:
 
 ## Credits
 
-This website is inspired  by [Love Running proyect.](https://learn.codeinstitute.net/)  
+This website is inspired  by [Love Running proyect.](https://www.youtube.com/watch?v=knd0rBIRQ-Q)  
 
 The Code to make social media links was taken from [Love Running proyect.](https://learn.codeinstitute.net/)  
 
