@@ -54,7 +54,6 @@ nav{ /* flex box for nav*/
     margin: 0 auto;
 }
 
-
 nav ul li{
     display: inline;
     padding: 0 1rem;
@@ -73,9 +72,6 @@ nav ul li a{
     display: block;
     height: 20rem;
 }
-
-
-
 
 /*Aside */
 
@@ -142,7 +138,6 @@ footer{  /* using grid + flex box*/
     color:black
 }
 
-
 .social-media{
     height: 9.37rem;
 }
@@ -165,6 +160,7 @@ footer{  /* using grid + flex box*/
    text-align: left;
    margin-left: 4rem;
    color: black;
+   font-size: 80%;
 }
 .map-responsive{
     overflow:hidden;
@@ -181,7 +177,6 @@ footer{  /* using grid + flex box*/
     position:absolute;
 }
 
-
 /* media querys*/
 
 @media (max-width:768px){
@@ -195,10 +190,7 @@ footer{  /* using grid + flex box*/
     header,aside,main,footer{
         grid-column-start: span 1;
     }
-
-
 }
-
 
 /* Navegation for mobile size */
 
