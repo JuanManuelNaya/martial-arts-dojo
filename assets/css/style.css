@@ -116,7 +116,6 @@ footer{  /* using grid + flex box*/
 }
 
 .form-section {
-    position: 0 auto;
     background: url("../images/signup.jpg");
     background-size: cover;
     background-position: center;
