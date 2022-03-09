@@ -1,7 +1,13 @@
 # Warrior Dojo 
 
-The Warrior Dojo is a landing page for people how is interested in taking Jujitsu clases.
-People must be at least 8 years old.
+1. ## Purpose of the Project
+
+* The Warrior Dojo is a website for people how is interested in learning martial arts such as jujitsu, aikido, karate.
+* This website also explains the to the user the benefits of learning martial arts.
+* In this website users will  see students experiences.
+* Usuers will find shedules for the classes and the 
+* Users will find contact info of the dojo (phone, email, address).
+* Users will find the social media of the institution.
 
 **In this website users will be able to find the following information:**
 
@@ -10,7 +16,9 @@ schedule: Showing the different times of the day the club is open.
 Experiences: Peopele sharing they experience at Warrior Dojo.
 Contact us: Sharing contact details such as address, email , phone number.
 
+2. ## User Stories
 
+* As a user I will click benefits read all content, after doing that I will read the experiences, then I will check the contact info and social media. After considering all this information I will click on sign up put my name, last name and email and press the bottom to joing the classes. 
 
 ![Display](/assets/images/Display.JPG)
 
