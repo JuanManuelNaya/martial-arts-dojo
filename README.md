@@ -143,7 +143,12 @@ Code after the change:
  
 11. ## Unfixed Bugs
  
--No unfixed bugs
+-When accessing through the deployed link when I put all the info on my form and submit it, the it shows me an error.
+![error](/assets/images/errorImage.JPG)
+
+-If I put all the requested information on my from from GitPod deployed sever I dont have this error it shows the message "Thank you for contacting the Warrior dojo team!"
+
+![Noerror](/assets/images/formFromGitPod.JPG)
  
 12. ## Deployment
  
