@@ -156,7 +156,7 @@ Code after the change:
  
 * This website was coded with GitPod, which is an open-source development platform for remote development.
 * The steps to use it are the following:
-    - Open a browser and type https://gitpod.io/workspaces .
+    - Open a browser, then typing  Git pod on google will lead  to the website link.
     - Open user account whit username and password.
     - Once you are in your user Git Pod account, hover with the mouse on the vertical dots that you wanna open.
     Click on it, then press open.
