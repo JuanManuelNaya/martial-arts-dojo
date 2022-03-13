@@ -115,7 +115,7 @@ footer{
     padding: 0.1rem;
 }
 
-.form-section {
+.form-section{
     background: url("../images/signup.jpg");
     background-size: cover;
     background-position: center;
@@ -135,6 +135,12 @@ footer{
 .join-button:hover{
     background-color: gold;
     color:#808080;
+}
+
+#message{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
 }
 
 .social-media{
