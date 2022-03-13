@@ -188,6 +188,10 @@ footer{
     header,aside,main,footer{
         grid-column-start: span 1;
     }
+
+    .social-media{
+        margin-top: 6rem;
+    }
 }
 
 /* Navegation for mobile size */
